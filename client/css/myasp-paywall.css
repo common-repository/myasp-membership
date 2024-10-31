@@ -1,0 +1,100 @@
+/**
+ * 「この先をみるには～」用スタイル
+ */ 
+.myasp-paywall-title {
+    margin-bottom: 10px;
+    font-size: 120%;
+    font-weight: bold;
+}
+.myasp-paywall {
+    /* position: relative; */
+    border: solid 1px #888;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding:1em;
+}
+
+.myasp-paywall-login {
+    text-align: right;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+.myasp-pay-dialog-item {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.myasp-pay-dialog-title {
+    margin: 35px 25px 15px 25px;
+    font-size: 120%;
+}
+
+.myasp-pay-dialog-regist {
+    text-align: center;
+    margin:15px;
+}
+
+.myasp-button-regist {
+    color: #333;
+    background: #87ceeb;
+    font-size: 140%;
+    font-weight: 700;
+    border: solid 0 #666;
+    border-radius: 5px;
+    transition: filter  .2s cubic-bezier(1,0,0,1);
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.myasp-button-regist:hover {
+    filter: brightness(0.92);
+    color: #333;
+    background: #87ceeb;
+    text-decoration: none; /* リンクに出てくる下線を無効にする*/    
+}
+
+.myasp-logout-url {
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.myasp-login-wrap {
+    position: relative;
+    border: solid 1px #666;
+    padding:0.5em 1em 1em;
+    border-radius: 20;
+}
+
+.myasp-login-form {
+    margin-top: 1em;
+    padding: 0.5em;
+    border: solid 1px #666;
+    border-radius: 10px;
+}
+
+form .myasp-login-input {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+form .myasp-login-input label {
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+form .myasp-login-input input {
+    padding: 6px;
+    font-size: 1em;
+}
+form .myasp-login-submit {
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+.myasp-login-error,
+.myasp-password-error {
+    color: red;
+}

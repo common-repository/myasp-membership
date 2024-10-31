@@ -1,0 +1,22 @@
+/**
+ * MyASP連携設定
+ */
+div.myasp-general-setting {
+    display: table;
+    margin-bottom:30px;
+}
+
+div.myasp-general-setting > div {
+    display: table-row;
+}
+
+div.myasp-general-setting > div > div {
+    display: table-cell; 
+    padding: 2px;
+    text-align: left;
+}
+
+div.myasp-general-setting-title {
+    width: 180px;
+    /* vertical-align: middle; */
+}
